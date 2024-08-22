@@ -37,6 +37,10 @@ Ensure that you have [Poetry](https://python-poetry.org/) installed. Poetry is u
     ```
 
     This will install all necessary packages specified in `pyproject.toml`.
+    Then to use the environment run
+    ```bash
+    poetry shell
+    ```
 
 ### 2. Generate Noisy Dataset
 
@@ -65,3 +69,4 @@ To test the model on external images, update the src/test_non_cifar10.py script 
 ```bash
 python src/test_non_cifar10.py
 ```
+Or to do it all at once which might be handy at some scenarios run main.py and do not forget to uncomment the commands inside.

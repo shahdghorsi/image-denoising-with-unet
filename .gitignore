@@ -1,0 +1,27 @@
+# Python-specific ignores
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+.venv/
+
+# IDE/editor specific
+.vscode/
+.idea/
+
+# System-specific
+.DS_Store
+
+# Logs
+*.log
+
+# Model files
+*.h5
+*.keras
+
+# Data files in src directory
+image_denoising_autoencoder/src/data/*.npz
+image_denoising_autoencoder/src/models/*.h5
+image_denoising_autoencoder/src/models/*.keras
+image_denoising_autoencoder/src/test-images/*.png
