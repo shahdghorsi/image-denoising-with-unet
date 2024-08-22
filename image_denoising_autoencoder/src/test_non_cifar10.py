@@ -8,7 +8,7 @@ from utils import add_gaussian_noise, calculate_metrics
 model = load_model('unet_denoising_model.h5')
 
 # Load and preprocess an external image
-img_path = '/Users/sehed.girsi/Desktop/image-denoising-autoencoder/tests/test-images/test-img.jpg'  # Update with your image path
+img_path = 'test-images/test-img.jpg'  # Update with your image path
 image = load_img(img_path, target_size=(32, 32))
 image = img_to_array(image).astype('float32') / 255.0
 

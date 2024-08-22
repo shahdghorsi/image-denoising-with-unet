@@ -5,6 +5,9 @@ __pycache__/
 
 # Virtual environment
 .venv/
+.poetry/
+*.lock
+
 
 # IDE/editor specific
 .vscode/
@@ -15,7 +18,6 @@ __pycache__/
 
 # Logs
 *.log
-
 # Model files
 *.h5
 *.keras
@@ -24,4 +26,4 @@ __pycache__/
 image_denoising_autoencoder/src/data/*.npz
 image_denoising_autoencoder/src/models/*.h5
 image_denoising_autoencoder/src/models/*.keras
-image_denoising_autoencoder/src/test-images/*.png
+
